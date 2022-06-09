@@ -1,0 +1,51 @@
+@font-face {
+    font-family: Kaue;
+    src: url
+}
+
+
+:root {
+    --cor-fundo: #6efa52;
+    --cor-titulo:#000000; 
+    --cor-link:	#eeeeee;
+    --cor-paragrafo : 
+    --fonte: Kaue;
+}
+
+
+body{
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte);
+    width: 700px;
+    max-width: 100%;
+    margin: 0 auto;
+    /* margin-top: 0;
+    margin-bottom: 0;
+    margin-left: auto;
+    margin-right: auto; */
+    color: #000000;
+}
+
+h1 {
+    color: var(--cor-titulo);
+    text-align: center
+}
+
+
+img {
+    width: 600px;
+}
+
+table {
+    width: 400px;
+    border: 1px solid black;
+    background-color: cornsilk;
+}
+
+th {
+    border: 1px solid black;
+}
+
+td {
+    border: 1px solid black;
+}
